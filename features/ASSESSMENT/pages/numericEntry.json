@@ -1,0 +1,32 @@
+{
+    "webElements": [
+        {
+            "name": "Element",
+            "byType": "xpath",
+            "definition": "//section[@id='primary-content-area']/section[1]/div/article/article[<ReplaceText>]/div[1]",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Target Value",
+            "byType": "xpath",
+            "definition": "(//aside[@id='module-edit-area']//input[@class='numeric-entry-input'])[<ReplaceText>]",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Numeric Entry 1",
+            "byType": "xpath",
+            "definition": "//*[@id='number-input-inner-1']/div/input",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Numeric Entry 2",
+            "byType": "xpath",
+            "definition": "//*[@id='number-input-inner-3']/div/input",
+            "frame": "default",
+            "specialInstr": "NA"
+        }
+    ]
+}

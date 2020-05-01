@@ -1,0 +1,440 @@
+{
+    "webElements": [
+        {
+            "name": "Raptor Canvas Btns",
+            "byType": "xpath",
+            "definition": "//div[@data-test-id='<ReplaceText>']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Module Multiple Select Edit",
+            "byType": "xpath",
+            "definition": "//div[@data-module-type='multiple_select'][<ReplaceText>]/..//div[@class='module-action-bar question']/div[text()='Edit']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Module Multiple Choice Edit",
+            "byType": "xpath",
+            "definition": "//div[@data-module-type='multiple_choice'][<ReplaceText>]/..//div[@class='module-action-bar question']/div[text()='Edit']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Module Chemical Equation Edit",
+            "byType": "xpath",
+            "definition": "//div[@data-module-type='chemical_equation'][<ReplaceText>]/..//div[@class='module-action-bar question']/div[text()='Edit']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Module Chemical Equation Correct Setup",
+            "byType": "xpath",
+            "definition": "//div[@data-module-type='chemical_equation'][<ReplaceText>]/..//div[@class='module-action-bar correct']/div[text()='Correct Setup']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Module MolDraw Edit",
+            "byType": "xpath",
+            "definition": "//div[@data-module-type='moldraw'][<ReplaceText>]/..//div[@class='module-action-bar question']/div[text()='Edit']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Module Smart Data",
+            "byType": "xpath",
+            "definition": "//div[@data-module-type='sted'][<ReplaceText>]",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Module Smart Data Edit",
+            "byType": "xpath",
+            "definition": "//div[@data-module-type='sted'][<ReplaceText>]/..//div[@class='module-action-bar question']/div[text()='Edit']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Item ID",
+            "byType": "xpath",
+            "definition": "//div[@data-test-id='edit-id']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Add Menu",
+            "byType": "xpath",
+            "definition": "//h2[@data-test-id='PRIMARY ADD MODULE']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Module Pallete",
+            "byType": "xpath",
+            "definition": "//*[@class='active-menu']//div[@data-test-id='<ReplaceText>']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Content Area",
+            "byType": "id",
+            "definition": "primary-content-area",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "More Menu",
+            "byType": "xpath",
+            "definition": "//h2[@data-test-id='PRIMARY MORE']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Check Your Work Submit Button",
+            "byType": "xpath",
+            "definition": "//button[text()='Submit Answer']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Save As Draft",
+            "byType": "xpath",
+            "definition": "//*[@class='active-menu']//li[@id='save-button']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Message",
+            "byType": "xpath",
+            "definition": "//h4[contains(.,'<ReplaceText>')]",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Item Details",
+            "byType": "xpath",
+            "definition": "//*[@class='active-menu']//div[.='Item Details']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Item Details Item Type",
+            "byType": "xpath",
+            "definition": "//label[text()='<ReplaceText>']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Item Type Confirmation Button",
+            "byType": "xpath",
+            "definition": "//div[@class='modal-content']//button[text()='<ReplaceText>']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "amsItemCreate",
+            "byType": "css",
+            "definition": "tr[data-id='<ReplaceText>']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Tab",
+            "byType": "xpath",
+            "definition": "//a[@data-test-id='<ReplaceText>-context']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "raptormoduleType",
+            "byType": "css",
+            "definition": "td[data-test-id='<ReplaceText>']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Add Incorrect Context Button",
+            "byType": "css",
+            "definition": "button[data-test-id='add-incorrect-context-button']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Check Answer Slider",
+            "byType": "xpath",
+            "definition": "//div[@class='slider round']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "activeTabTakeMode",
+            "byType": "css",
+            "definition": "#feedback-context-list-container > div > div.context-list-container > ul > li.active-disabled.disabled",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Active Tab Edit Mode",
+            "byType": "css",
+            "definition": "#feedback-context-list-container > div > div.context-list-container > ul > li.active",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Item Details Title",
+            "byType": "xpath",
+            "definition": "//div[@class='cdl-dialog-background hatchling']//div[.='Title: ']/input",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Item Details Done Button",
+            "byType": "xpath",
+            "definition": "//div[@class='cdl-dialog-background hatchling']//input[@value='Done']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "variablesChevron",
+            "byType": "css",
+            "definition": "#algos-button > span",
+            "frame": "default",
+            "specialInstr": "noclear"
+        },
+        {
+            "name": "addListVariableButton",
+            "byType": "css",
+            "definition": "#algos-container > div.algo-controls > button:nth-child(1)",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "addRangeAlgoButton",
+            "byType": "css",
+            "definition": "#algos-container > div.algo-controls > button:nth-child(2)",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "addCalculatedAlgoButton",
+            "byType": "css",
+            "definition": "#algos-container > div.algo-controls > button:nth-child(3)",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "addRowButton",
+            "byType": "css",
+            "definition": "#algos-container > div.list-algo-div > button:nth-child(2)",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "addColumnButton",
+            "byType": "css",
+            "definition": "#algos-container > div.list-algo-div > button:nth-child(3)",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "variableTypeDropdown",
+            "byType": "xpath",
+            "definition": "//table[@class='table list-algo-table']/tbody/tr[<ReplaceText>]/td/select",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "variableNameTextbox",
+            "byType": "xpath",
+            "definition": "//table[@class='table list-algo-table']/tbody/tr[<ReplaceText>]/td[4]/input",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "variableValue1Textbox",
+            "byType": "xpath",
+            "definition": "//table[@class='table list-algo-table']/tbody/tr[<ReplaceText>]/td[5]/input",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "variableValue2Textbox",
+            "byType": "xpath",
+            "definition": "//table[@class='table list-algo-table']/tbody/tr[<ReplaceText>]/td[6]/input",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "variableValue3Textbox",
+            "byType": "xpath",
+            "definition": "//table[@class='table list-algo-table']/tbody/tr[<ReplaceText>]/td[7]/input",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Range Algo Desc Field",
+            "byType": "xpath",
+            "definition": "//td[.='Range']/../..//tr[<ReplaceText>]//td[3]/input",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "rangeNameTextbox",
+            "byType": "xpath",
+            "definition": "//td[.='Range']/../../tr[<ReplaceText>]/td[4]/input",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "rangeMinimumTextbox",
+            "byType": "xpath",
+            "definition": "//td[.='Range']/../../tr[<ReplaceText>]/td[5]/input",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "rangeMaximumTextbox",
+            "byType": "xpath",
+            "definition": "//td[.='Range']/../../tr[<ReplaceText>]/td[6]/input",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "rangeIncrementTextbox",
+            "byType": "xpath",
+            "definition": "//td[.='Range']/../../tr[<ReplaceText>]/td[7]/input",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "calculatedNameTextbox",
+            "byType": "xpath",
+            "definition": "//td[.='Calculated']/../../tr[<ReplaceText>]/td[4]/input",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "calculatedEquationTextbox",
+            "byType": "xpath",
+            "definition": "//td[.='Calculated']/../../tr[<ReplaceText>]/td[5]/input",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Cycle Variables Button",
+            "byType": "xpath",
+            "definition": "//div[@class='cycle-variables-button']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Answer Tab",
+            "byType": "xpath",
+            "definition": "//a[contains(@data-test-id,'<ReplaceText>')]",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Feedback Module",
+            "byType": "xpath",
+            "definition": "//div[@id='feedback-module-palette']/ul/li/div[text()='<ReplaceText>']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Feedback Text",
+            "byType": "xpath",
+            "definition": "//div[@data-module-type='static_textfield']",
+            "frame": "default",
+            "specialInstr": "overwrite noclick"
+        },
+        {
+            "name": "Add Context",
+            "byType": "xpath",
+            "definition": "//button[@data-test-id='add-<ReplaceText>-context-button']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Editor Panel Done Button",
+            "byType": "xpath",
+            "definition": "//div[@data-test-id='module-edit-container']//button[text()='Done']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "=.=.=.=.=.=": "===========================================================================================",
+            "=.COMMENT.=": "= THE FOLLOWING ELEMENTS ARE IN THIS FILE BECAUSE THEY ARE COMMON TO MORE THAN ONE MODULE =",
+            ".=.=.=.=.=.": "==========================================================================================="
+        },
+        {
+            "name": "Choice Value Textbox",
+            "byType": "xpath",
+            "definition": "//div[@class='sl-list-edit']/div[<ReplaceText>]//textarea",
+            "frame": "default",
+            "specialInstr": "noclick"
+        },
+        {
+            "name": "Add Choice Button",
+            "byType": "css",
+            "definition": "a[data-test-id='add-item-button']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Choice Text",
+            "byType": "xpath",
+            "definition": "//div[@data-test-id='multipleSelectAnswerChoices']/div[<ReplaceText>]/span/label/div/span",
+            "frame": "default",
+            "specialInstr": "NA"
+        },{
+            "=.=.=.=.=.=": "===========================================================================================",
+            "=.COMMENT.=": "= HINT AREA                                                                                =",
+            ".=.=.=.=.=.": "==========================================================================================="
+        },
+        {
+            "name": "Feedback Add Button",
+            "byType": "xpath",
+            "definition": "//div[@id='context-feedback-menu-buttons']/h2[text()='Add']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Feedback Add Element",
+            "byType": "xpath",
+            "definition": "//div[@id='context-feedback-menu-buttons']//div[text()='<ReplaceText>']",
+            "frame": "default",
+            "specialInstr": "focus"
+        },
+        {
+            "name": "Feedback Ungraded Text Actions",
+            "byType": "xpath",
+            "definition": "//section[@id='secondary-content-area']//div[text()='<ReplaceText>']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Feedback Ungraded Text Edit Input",
+            "byType": "xpath",
+            "definition": "//div[@data-test-id='module-edit-container']//div[@class='sticky-buttons ace-buttons']//span",
+            "frame": "default",
+            "specialInstr": "overwrite"
+        },
+        {
+            "name": "Feedback Context Area",
+            "byType": "xpath",
+            "definition": "//section[@id='secondary-content-area']",
+            "frame": "default",
+            "specialInstr": "focus"
+        },
+        {
+            "name": "Feedback Ungraded Text Check",
+            "byType": "xpath",
+            "definition": "//section[@id='secondary-content-area']//span[text()='<ReplaceText>']",
+            "frame": "default",
+            "specialInstr": "NA"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "method":"POST",
+    "endpoint": "/lms/course",
+    "json": true,
+    "request": {
+    }
+  }

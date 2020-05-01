@@ -1,0 +1,65 @@
+{"webElements": [
+    {
+        "name": "sacframe",
+        "byType": "css",
+        "definition": "#flcn_assignment",
+        "frame": "default",
+        "specialInstr": "NA"
+    },
+    {
+        "name": "Assessment Name",
+        "byType": "css",
+        "definition": "#id_name",
+        "frame": "default",
+        "specialInstr": "NA"
+    }, {
+        "name": "saveAndContinue",
+        "byType": "css",
+        "definition": "#id_submitbutton",
+        "frame": "default",
+        "specialInstr": "NA"
+    },
+    {
+        "name": "assessmentFrame",
+        "byType": "css",
+        "definition": "#id_description_ifr",
+        "frame": "default",
+        "specialInstr": "NA"
+    },
+    {
+        "name": "assessmentDescription",
+        "byType": "css",
+        "definition": "#tinymce p",
+        "frame": "assessmentFrame",
+        "specialInstr": "NA"
+    },
+    {
+        "name": "assessmentID",
+        "byType": "xpath",
+        "definition": "//input[@type='hidden' and @name='update']",
+        "frame": "default",
+        "specialInstr": "NA"
+    },
+    {
+        "name": "Created Assessment",
+        "byType": "xpath",
+        "definition": "//a[contains(@href,'<ReplaceText>')]//span[text()='QAAssessment']",
+        "frame": "default",
+        "specialInstr": "NA"
+    },
+    {
+        "name": "Grade Status",
+        "byType": "xpath",
+        "definition": "//span[@data-test-id='side-nav-item-<ReplaceText>-status']",
+        "frame": "sacframe",
+        "specialInstr": "NA"
+    },
+    {
+        "name": "Submit Answers",
+        "byType": "xpath",
+        "definition": "//*[@data-test-id='<ReplaceText>']",
+        "frame": "sacframe",
+        "specialInstr": "NA"
+    }
+]
+}

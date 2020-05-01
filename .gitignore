@@ -1,0 +1,10 @@
+node_modules
+.vscode
+.item
+**/.DS_Store
+package-lock.json
+*.csv
+reports/**
+screenshots/**
+**/config.json
+.idea

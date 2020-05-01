@@ -1,0 +1,32 @@
+{
+    "webElements": [
+        {
+            "name": "MolDraw Static Module Checkbox",
+            "byType": "css",
+            "definition": "input[name='answerable']",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Drawing Area",
+            "byType": "css",
+            "definition": ".K-Widget.K-Normal-Background.K-Chem-Editor.K-Chem-Editor2D.K-NonSelectable.K-Layout-H.K-Dynamic-Created.K-State-Normal",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Single Bond Button",
+            "byType": "css",
+            "definition": ".K-Chem-MolBondIaController-Single",
+            "frame": "default",
+            "specialInstr": "NA"
+        },
+        {
+            "name": "Double Bond Button",
+            "byType": "css",
+            "definition": ".K-Chem-MolBondIaController-Double",
+            "frame": "default",
+            "specialInstr": "NA"
+        }
+    ]
+}

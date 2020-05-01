@@ -1,0 +1,21 @@
+{
+  "username": "admin@courseware.com",
+  "password": "Passw0rd!",
+  "newpassword": "ABCabc@123",
+  "firstName": "Addy",
+  "lastName": "min",
+  "sq1": "What high school did you attend?",
+  "sq1_answer": "answer",
+  "sq2": "What is your favorite movie?",
+  "sq2_answer": "answer",
+  "sq3": "What is your favorite color?",
+  "sq3_answer": "answer",
+  "primarySchool": "Miami University",
+  "jwt_payload": {
+    "email": "coursewareachieve@gmail.com",
+    "app_metadata": {
+      "admin": true,
+      "support": false
+    }
+  }
+}
